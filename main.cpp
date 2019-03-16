@@ -11,16 +11,6 @@
 
 using namespace std;
 
-//void printTrinagles(TriangleGraph *triangle)
-//{
-//    std::cout << "A: {" << result->points[0]->x << ", " << result->points[0]->y << ", " << result->points[0]->z << "}, "
-//              << "B: {" << result->points[1]->x << ", " << result->points[1]->y << ", " << result->points[1]->z << "}, "
-//              << "C: {" << result->points[2]->x << ", " << result->points[2]->y << ", " << result->points[2]->z << "} "
-//              << std::endl;
-
-//    for (auto iter = result.begin(); iter != result.end(); ++iter)
-//}
-
 int main(int argc, char *argv[])
 {
     std::vector<Point3D> points = {
@@ -50,11 +40,11 @@ int main(int argc, char *argv[])
     }
 
     std::cout << "Hello, world! ;)" << std::endl;
-
-
+    
 ////////////////////////////////////
 ///  simple visualization part!  ///
 ////////////////////////////////////
+    
     QApplication a(argc, argv);
 
     QGraphicsScene scene;
